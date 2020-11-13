@@ -34,7 +34,7 @@ if (clientID>-1)
     [res_con_setorien] = sim.simxSetObjectOrientation(clientID, con_handle, -1, [0 0 -pi/2], sim.simx_opmode_oneshot);
     
     % % %     number of repetition
-    rep = 100;
+    rep = 500;
     
     % % %         Repeated creation and deletion of the device.
     for count = 1:rep
